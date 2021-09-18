@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    canvas{
+        border: 1px solid;
+    }
+</style>
+    
+<body>    
+    <canvas width="500px" height="500px"></canvas>
+    <script>
+        var oCan = document.getElementsByTagName('canvas')[0];
+        var ctx = oCan.getContext('2d');
+        //scale translate rotate探究
+
+        ctx.beginPath();
+        // ctx.scale(2,2)
+        // ctx.rotate(Math.PI / 8);
+        ctx.translate(100,100);
+        ctx.moveTo(0, 0);
+        ctx.lineTo(100, 100);
+        ctx.stroke();
+
+        ctx.beginPath();
+        // ctx.scale(0.5,0.5)
+        // ctx.rotate(-Math.PI / 8);
+        ctx.translate(0,0);
+        ctx.moveTo(-100, -100);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+
+
+    </script>
+</body>
+</html>

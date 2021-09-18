@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <style>
+        .wrapper {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="file">
+
+    <div class="wrapper">
+        <img alt="" width="150px" id="img">
+        <button>转换</button>
+        <canvas width="150" height="113"></canvas>
+
+        <script>
+            const img = document.getElementsByTagName('img')[0];
+            const ctx = document.getElementsByTagName('canvas')[0].getContext('2d')
+            const btn = document.getElementsByTagName('button')[0]
+            btn.addEventListener('click', e => {
+                ctx.drawImage(img, 0, 0, 150, 113);
+                const data = ctx.getImageData(0, 0, 150, 113);
+                for (let i = 0; i < data.data.length; i += 4) {
+                    const r = data.data[i],
+                        g = data.data[i + 1],
+                        b = data.data[i + 2],
+                        avg = (r + g + b) / 3;
+                    data.data[i + 2] = data.data[i + 1] = data.data[i] = avg;
+                }
+                ctx.putImageData(data, 0, 0);
+            }, false)
+
+            const oInput = document.getElementsByTagName('input')[0]
+            oInput.addEventListener('change', e => {
+                const file = e.target.files[0];
+                const imgURL = window.webkitURL.createObjectURL(file);
+                img.src = imgURL;
+            }, false)
+        </script>
+    </div>
+</body>
+
+</html>

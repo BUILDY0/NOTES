@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <script src="../vue.js"></script>
+    <div id="app">
+        <div class="header">
+            <div class="container">
+                <span class="logo">toDoList</span>
+                <div class="input-area">
+                    <input type="text" :value="inputContent.title" @input="handleInput" @keydown.enter="addItem">
+                    <button @click="addItem">添加</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="mask-list">
+                <h2>正在进行
+                    <span class="mask-num">{{doingList.length}}</span>
+                </h2>
+                <li v-for="(item,itemIndex) in doingList" :key="item.id">
+                    <div>
+                        <input type="checkbox" @click="changeItem(itemIndex,'doing')">{{item.title}}
+                    </div>
+                    <button @click="deleteItem(itemIndex,'doing')">删除</button>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <ul class="complete-list mask-list">
+                <h2>已经完成
+                    <span class="mask-num">{{doneList.length}}</span>
+                </h2>
+                <li v-for="(item,itemIndex) in doneList" :key="item.id">
+                    <div>
+                        <input type="checkbox" @click="changeItem(itemIndex,'done')">{{item.title}}
+                    </div>
+                    <button @click="deleteItem(itemIndex,'done')">删除</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                inputContent: {
+                    title: '123',
+                    id: 0,
+                },
+                doingList: [],
+                doneList: [],
+            },
+            methods: {
+                handleInput(e) {
+                    this.inputContent = {
+                        title: e.target.value,
+                        id: this.inputContent.id,
+                    };
+                },
+                addItem() {
+                    if (this.inputContent.title === '') {
+                        return;
+                    }
+                    this.doingList.push(JSON.parse(JSON.stringify(this.inputContent)))
+                    this.inputContent.id++;
+                },
+                changeItem(itemIndex, type) {
+                    if (type === 'doing') {
+                        const item = this.doingList.splice(itemIndex, 1);
+                        this.doneList.push(...item)
+                    } else {
+                        const item = this.doneList.splice(itemIndex, 1);
+                        this.doingList.push(...item)
+                    }
+                },
+                deleteItem(itemIndex, type) {
+                    this[type + 'List'].splice(itemIndex, 1);
+                }
+            },
+        })
+    </script>
+</body>
+
+</html>

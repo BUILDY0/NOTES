@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="Zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .videoplayer{
+            width: 1000px;
+            height: 560px;
+            margin: 0px auto;
+            position: relative;
+        }
+        video{
+            width: 1000px;
+            height: 560px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        .menu{
+            position: absolute;
+            width: 100%;
+            height: 50px;
+            bottom: 0px;
+            background-color: rgba(0, 0, 0, 0.3);
+            transition: all 0.5s;
+        }
+        .menu .play{
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            border: 1px solid white;
+            border-radius: 10%;
+            position: absolute;
+            top:calc(50% - 15px);
+            left: 30px;
+            font: 18px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+        }
+        .menu .time{
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            /* border: 1px solid white;
+            border-radius: 10%; */
+            position: absolute;
+            top:calc(50% - 15px);
+            left: 145px;
+            font: 18px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+        }
+        .menu .progressBar>div:first-of-type{
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            left: 0px;
+            top: -2px;
+            background-color: white;
+            z-index: 2;
+        }
+        .menu .progressBar>div:last-of-type{
+            height: 2px;
+            width: 0px;
+            position: absolute;
+            left: 0px;
+            top: -2px;
+            background-color: orange;
+            z-index: 3;
+        }
+        .menu .progressBar>i{
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            margin-left: -3px;
+            left: 0px;
+            top:-4px;
+            z-index: 4;
+            cursor: pointer;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+        }
+        .menu .quick{
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            border: 1px solid white;
+            border-radius: 10%;
+            position: absolute;
+            top:calc(50% - 15px);
+            left: 300px;
+            font: 18px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+        }
+        .menu .quick_list{
+            display: none;
+            height: 90px;
+            width: 80px;
+            border-radius: 10% 10% 0 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            color: white;
+            position: absolute;
+            left: 300px;
+            top: -80px;
+            text-align: center;
+            overflow: hidden;
+            z-index: 5;
+        }
+        .menu .quick_list li{
+            line-height: 30px;
+            cursor: pointer;
+        }
+        .menu .quick_list li:hover{
+            background-color: rgba(11, 170, 143, 0.5);
+        }
+        li{
+            list-style: none;
+        }
+        .menu .fullscreen{
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            border: 1px solid white;
+            border-radius: 10%;
+            position: absolute;
+            top:calc(50% - 15px);
+            left: 400px;
+            font: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: transparent;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+        }
+    </style>
+    <script src="../javascript/jquery.js"></script>
+</head>
+<body>
+    <div class="videoplayer">
+        <video src="./test.mp4"></video>
+        <div class="menu">
+            <div class="play">播放</div>
+            <div class="time">00:00/00:00</div>
+            <div class="progressBar">
+                <div></div>
+                <div></div>
+                <i></i>
+            </div>
+            <div class="quick">倍速</div>
+            <div class="quick_list">
+                <ul>
+                    <li>正常</li>
+                    <li>x1.5</li>
+                    <li>x2.0</li>
+                </ul>
+            </div>
+            <div class="fullscreen">全屏</div>
+        </div>
+
+    </div>
+        
+    <script>
+        var $videoplayer = $('.videoplayer'),
+            $video = $videoplayer.find('video').get(0),
+            $menu = $videoplayer.find('.menu'),
+            $progressBar = $videoplayer.find('.progressBar'),
+            $play = $menu.find('.play'),
+            $time = $menu.find('.time'),
+            $quick = $menu.find('.quick'),
+            $quickList = $menu.find('.quick_list'),
+            $fullscreen = $menu.find('.fullscreen');
+
+        $videoplayer.on('mouseenter', function(){//控制条初始化
+            $menu.css('opacity', 1);
+            // console.log('videoplayer_mouseenter');
+        }).on('mouseleave', function(){
+            $menu.css('opacity', 0);
+            // console.log('videoplayer_mouseleave');
+        })
+
+        $play.add($video).on('click', function(e){//播放功能
+            // console.log('video_click');
+            if( $video.paused ){
+                $video.play();
+                $play.text('暂停');
+            }else{
+                $video.pause();
+                $play.text('播放');
+            }
+        })
+
+        function fix(num, length) { //修正位数函数
+            return ('' + num).length < length ? ((new Array(length + 1)).join('0') + num).slice(-length) : '' + num;
+        }
+        $time.timer = setInterval(function(e){//时间计时
+            var totalTime = $video.duration,
+                curTime = $video.currentTime;
+            $time.text( '' + fix(parseInt(curTime / 60), 2) + ":" + fix(parseInt(curTime % 60), 2) + '/' + fix(parseInt(totalTime / 60), 2) + ':' + fix(parseInt(totalTime % 60), 2) );
+            percent = parseInt(curTime / totalTime * $progressBar.outerWidth());
+            $progressBar.find('div:eq(1)').width( percent ).end().find('i:first').css('left',percent)
+        } ,500)
+
+        $progressBar.on('mouseenter', function(e){
+                    // console.log('progressBar_mouseenter');
+                    $(this).children().css('transform', 'scale(1,3)').end().find('i').css('transform', 'scale(2)');
+                })
+                .on('mouseleave',function(e){
+                    // console.log('progressBar_mouseenter');
+                    $(this).children().css('transform', '');
+                })
+        $progressBar.children('div')
+                .on('click',function(e){
+                var curProgress = e.offsetX,
+                    width = $progressBar.outerWidth();
+                    $video.currentTime = curProgress / width * $video.duration;
+                    $progressBar.find('div:eq(1)').width( curProgress ).end().find('i:first').css('left', curProgress);
+                })
+        $quick.on('click',function(e){
+            $quickList.css('display', 'block');
+        });
+        $quickList.on('mouseleave', function(e){
+            $quickList.css('display', 'none');
+        }).on('click', function(e){
+           var index = $(e.target).index();
+           switch(index){
+                case 0 :
+                    $quick.text('倍速');
+                    $video.playbackRate = 1;
+                    break;
+                case 1 :
+                    $quick.text('x1.5');
+                    $video.playbackRate = 1.5;
+                    break;
+                case 2 :
+                    $quick.text('x2.0');
+                    $video.playbackRate = 2;
+                    break;
+           }
+        })
+        $fullscreen.click(function(e){
+            if($videoplayer.css('width') != '1000px'){
+                $videoplayer.css('height', '');
+                $videoplayer.css('width', '');
+                $video.style.height = 560 + 'px';
+                $video.style.width = 1000 + 'px';
+                $(document).off('mousemove');
+                document.documentElement.style.overflowY = 'scroll';
+                clearInterval(this.timer);
+            }else{
+                $videoplayer.css('height', document.documentElement.clientHeight + 'px');
+                $videoplayer.css('width', document.documentElement.clientWidth + 'px');
+                $video.style.height = document.documentElement.clientHeight + 'px';
+                $video.style.width = document.documentElement.clientWidth + 'px';
+                setTimeout(function(e){
+                $menu.css('opacity', 0);
+                },3000);
+                var time = null;
+                this.timer = setInterval(function(){
+                    if(new Date().getTime() - time > 3000){
+                            $menu.css('opacity', 0);
+                        }
+                },1000)
+                $(document).mousemove(function(e){
+                    $menu.css('opacity', 1);
+                    time = new Date().getTime();
+                })
+                document.documentElement.style.overflowY = 'hidden';
+            }
+    })
+    </script>
+</body>
+</html>

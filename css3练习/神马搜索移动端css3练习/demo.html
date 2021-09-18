@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../javascript/jquery.js"></script>
+    <style>
+
+        /* :root,
+        body{
+            width: 100%;
+            height: 100%;
+            position: relative;
+        } */
+        /* .wrapper{
+            width: 200px;
+            height: fit-content;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            right: 0%;
+            bottom: 0%;
+            margin: auto auto;
+        }
+        .wrapper div{
+            height: 50px;
+            line-height: 50px;
+            border: 1px solid black;
+        }
+        div[id]:not(:target){
+            display: none;
+        }
+        a{
+            margin: 0 10px;
+        } */
+        /* div{
+            position: absolute;
+            left: calc(50% - 300px);
+            top: calc(50% - 50px);
+            width: 600px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 80px;
+            background-image: url(../javascript/轮播图/img/cat1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            text-shadow: -10px -10px 5px rgba(00, 00, 00, 0.1);
+        }
+        div:hover{
+            background-position: center;
+            transition: all 1s;
+        } */
+        /* .wrapper{
+            width: 600px;
+            height: 300px;
+            border: 1px solid black;
+            position: absolute;
+            left: calc(50% - 25%);
+            top: calc(50% - 150px);
+            overflow: hidden;
+        }
+        .wrapper .content{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            column-width: 600px;
+            column-gap: 20px;
+            transition: all 0.5s;
+        } */
+        /* .wrapper{
+            resize: both;
+            overflow: hidden;
+            display: flex;
+            width: 300px;
+            height: 300px;
+            flex-direction: column;
+            border: 1px solid black;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .contain{
+            display: flex;
+            flex: 1 1 auto;
+            box-sizing: border-box;
+            line-height:;
+        }
+        .head, .footer, .left, .right{
+            flex: 0 0 20%;
+            border: 1px solid green;
+            box-sizing: border-box;
+        }
+        .main{
+            flex: 1 1 auto;
+        } */
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="bg">
+            <!-- 标签页 -->
+            <div class="navigator">
+                <div class="logo">神马</div>
+                <div class="label">
+                    <span class="active">网页</span>
+                    <span>小说</span>
+                    <span>视频</span>
+                    <span>更多▼</span>
+                </div>
+            </div>
+            <!-- 搜索框 -->
+            <div class="find-page">
+                <input type="text" placeholder="  刘德华" />
+                <div class="wrap">
+                    <a href="#" class="logo_a"></a>
+                    <span></span>
+                    <a href="#" class="logo_b"></a>
+                </div>
+            </div>
+            <!-- 展示页 -->
+            <div class="show-page">
+                <img src="#" alt="123">
+                <div class="profile">
+                    <h3>刘德华</h3>
+                    <p>演员、歌手、香港“四大天王”之一</p>
+                    <p>1961年09月27日（57岁）</p>
+                </div>
+            </div>
+        </div>
+        <!-- 关键词 -->
+        <div class="keyword-page">
+            <div class="show-keyword">
+                <span class="active">主页</span>
+                <span>人物介绍</span>
+                <span>影视作品</span>
+                <span>音乐作品</span>
+            </div>  
+            <div class="content">
+                <span class="logo_main">百科</span>
+                <span>刘德华85asndjajhdahsidhuiashdui</span>
+                <p>基础信息：19按时6但15165</p>
+                <p>性别：男</p>
+            </div>
+            <div class="more">
+                <div class="content">
+                    <span class="logo_c"></span>
+                    <a href="#">星揭秘</a>
+                    <div class="wrap">
+                        <span>sadasmdiasjidojaiosjdiojaisojdias阿三大苏打啊实打实大大阿三大苏打</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        setInterval(function(){
+            var $span = $('.wrapper .keyword-page .more .content .wrap span'),
+                $wrap = $('.wrapper .keyword-page .more .content .wrap');
+            if( Math.abs(parseInt($span.css('top'))) >= ($span.height() - parseInt($wrap.css('lineHeight'))) ) {
+                $span.css('top', 0).css('transition','0s');
+            }else{
+                $span.css('top', '-=30px').css('transition','0.5s');
+            }
+
+        },1000)
+
+    </script>
+
+
+
+
+
+    <!-- <div class="wrapper">
+        <div class="head">head</div>
+        <div class="contain">
+            <div class="left">left</div>
+            <div class="main">main</div>
+            <div class="right">right</div>
+        </div>
+        <div class="footer">footer</div>
+    </div> -->
+    <!-- 手风琴 -->
+    <!-- <div class="wrapper">
+        <div><a href="#one"> 第一</a></div>
+        <div id="one">我是第一</div>
+        <div><a href="#two"> 第二</a></div>
+        <div id="two">我是第二</div>
+        <div><a href="#three"> 第三</a></div>
+        <div id="three">我是第三</div>
+    </div> -->
+
+    <!-- 选项卡 -->
+    <!-- <div class="wrapper">
+        <a href="#a">1</a>
+        <a href="#b">2</a>
+        <a href="#c">3</a>
+        <div id="a">你好</div>
+        <div id="b">不好</div>
+        <div id="c">滚</div>
+    </div> -->
+    <!-- <script>
+        $(document).on('mousedown',function (){
+            $('<div/>').addClass('add').appendTo($('body'));
+            $(document).on('mousemove', function(e){
+                $('<div/>').css({
+                    'width' : 0,
+                    'height' : 0,
+                    'border' : '1px solid black',
+                    'position' : 'absolute',
+                    'left' : e.pageX,
+                    'top' : e.pageY
+                }).appendTo($('.add'));
+            })
+            $(document).on('mouseup', function (){
+                var distantX = $('.add:first').children().last().offset().left - $('.add:first').children().first().offset().left,
+                    distantY = $('.add:first').children().last().offset().top - $('.add:first').children().first().offset().top;
+                if (distantX > 0 && Math.abs( distantX / distantY ) >= 3 && parseInt($('.content:first').css('left')) % 620 == 0) {
+                    $('.content:first').css('left', '+=620')
+                } else if (distantX < 0 && Math.abs( distantX / distantY ) >= 3 && parseInt($('.content:first').css('left')) % 620 == 0) {
+                    $('.content:first').css('left', '-=620')
+                }
+                $('.add').remove()
+                $(document).off('mousemove').off('mouseup');
+            })
+        })
+    </script> -->
+</body>
+
+</html>

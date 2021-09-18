@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>transform_demo</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    :root, body{
+        height: 100%;
+    }
+
+    body,
+    .wrapper{
+        transform-style: preserve-3d;
+        perspective: 5000px;
+    }
+    
+    @keyframes roundrun{
+        0%{
+            transform: translate(-50%, -50%) rotateY(0deg);
+        }
+        100%{
+            transform: translate(-50%, -50%) rotateY(360deg);
+        }
+    }
+    .wrapper{
+
+        position: absolute;
+        left: calc(50% - 50px);
+        top: calc(50% - 50px);
+        width: 100px;
+        height: 100px;
+        animation: roundrun 10s linear infinite;
+    }
+
+    div>div{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+    ._1{
+        background-color: red;
+        transform: rotateY(45deg) translateZ(800px);
+    }
+    ._2{
+        background-color: pink;
+        transform: rotateY(90deg) translateZ(800px);
+    }
+    ._3{
+        background-color: green;
+        transform: rotateY(135deg) translateZ(800px);
+    }
+    ._4{
+        background-color: yellow;
+        transform: rotateY(180deg) translateZ(800px);
+    }
+    ._5{
+        background-color: blue;
+        transform: rotateY(225deg) translateZ(800px);
+    }
+    ._6{
+        background-color: grey;
+        transform: rotateY(270deg) translateZ(800px);
+    }
+    ._7{
+        background-color: purple;
+        transform: rotateY(315deg) translateZ(800px);
+    }
+    ._8{
+        background-color: turquoise;
+        transform: rotateY(360deg) translateZ(800px);
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="_1"></div>
+        <div class="_2"></div>
+        <div class="_3"></div>
+        <div class="_4"></div>
+        <div class="_5"></div>
+        <div class="_6"></div>
+        <div class="_7"></div>
+        <div class="_8"></div>
+    </div>
+    <script>
+        var wrapper = document.getElementsByClassName('wrapper')[0];
+        var curPosX, curPosY;
+        document.body.onmousemove = function(e){
+            posX = e.pageX;
+            posY = e.pageY;
+            // console.log(posX, posY)
+            this.style.perspectiveOrigin = '' + e.pageX + 'px ' + e.pageY + 'px';
+            // console.log(this.style.transform);
+            this.style.transform = curPosY ? ('rotateX(' + (curPosY - posY) + 'deg)' ) : this.style.transform;
+        }
+        document.body.onmousedown = function(e){
+            curPosX = e.pageX;
+            curPosY = e.pageY;
+            // console.log(curPosX, curPosY);
+        }
+        document.body.onmouseup = function (e){
+            curPosY = null;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <input type="text" v-slice:7='content'>
+
+    </div>
+
+
+    <script src="../vue.js"></script>
+    <script>
+        // 自定义指令练习，要求创建一个输入框，并且自定义一个组件slice限制输入框的字节数，如果有number修饰符则把结果转为全部是number
+        Vue.directive("slice", (
+            el,
+            banding,
+            vnode
+        ) => {
+
+            let {
+                arg = 5,
+                    expression,
+                    value,
+                    modifiers: {
+                        number
+                    }
+            } = banding
+
+            if (number) {
+                value = value.replace(/[^0-9]/g, '')
+            }
+            // 值截取5个长度
+            value = value.slice(0, arg)
+            el.value = value
+
+            el.oninput = () => {
+                value = el.value
+                if (number) {
+                    value = value.replace(/[^0-9]/g, '')
+                }
+                // 值截取5个长度
+                value = value.slice(0, arg)
+                el.value = value
+            }
+
+        })
+
+
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                content: 'test text 123456789'
+            }
+        });
+    </script>
+</body>
+
+</html>

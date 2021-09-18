@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        {{ content | contentFilter}}
+        {{ money | moneyFilter}}
+        {{ play | playFilter}}
+    </div>
+
+
+    <script src="../vue.js"></script>
+    <script>
+        // 过滤器练习
+
+
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                content: 'jack',
+                money: 123100515,
+                play: 123102,
+            },
+            filters: {
+                contentFilter(val) {
+                    return val.charAt(0).toUpperCase() + val.slice(1)
+                },
+                moneyFilter(val) {
+                    return val.toLocaleString()
+                },
+                playFilter(val) {
+                    if (val > 10000) {
+                        return (val / 10000).toFixed(1) + '万'
+                    }
+                    return val
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

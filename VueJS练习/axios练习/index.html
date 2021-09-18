@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="username">
+            <input type="text" placeholder="用户名" v-model="name">
+        </div>
+        <div class="mail">
+            <input type="text" placeholder="邮箱" v-model="mail">
+        </div>
+        <div class="upload-btn" @click="handleUpload">上传</div>
+        <div class="show-btn" @click="handleShow">显示人物信息</div>
+        <ul class="person-list" v-if="personList.length">
+            <li class="person" v-for="person in personList">
+                <span>{{ person.name }}</span>
+                <span>{{ person.mail }}</span>
+            </li>
+    </div>
+    <script src="../vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        axios.defaults.baseURL = "https://developer.duyiedu.com/vue"
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                name: '',
+                mail: '',
+                msg: '',
+                personList: []
+            },
+            methods: {
+                handleUpload() {
+                    axios.post('/setUserInfo', {
+                        name: this.name,
+                        mail: this.mail
+                    }).then(res => {
+                        this.msg = res.data.msg;
+                    }, error => {
+                        console.log(error);
+                    })
+                },
+                handleShow() {
+                    axios.get('/getUserInfo').then(res => {
+                        this.personList = res.data.data;
+                        this.personList.length = 50;
+                    })
+                },
+            },
+            watch: {
+                msg() {
+                    if (this.msg === '') {
+                        return;
+                    }
+                    alert(this.msg);
+                    this.msg = '';
+                }
+            }
+        });
+
+        // axios.all(
+        //     [
+        //         axios.post('/setUserInfo', {
+        //             name: '',
+        //             mail: '',
+        //         }),
+        //         axios.get('/getUserInfo')
+        //     ]).then(axios.spread(
+        //     (setRes, getRes) => {
+        //         console.log(setRes, getRes);
+        //     })).catch(axios.spread(
+        //     (setRes, getRes) => {
+        //         console.log(setRes, getRes);
+        //     }))
+    </script>
+</body>
+
+</html>

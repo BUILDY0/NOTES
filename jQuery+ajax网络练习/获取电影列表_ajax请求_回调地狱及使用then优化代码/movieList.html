@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieList</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .head{
+            margin: 5px;
+        }
+        .tpl{
+            display: none;
+        }
+        .wrapper {
+            width: 510px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top:10%;
+            margin: 0 auto;
+            border: 2px solid black;
+        }
+        .wrapper .show{
+            margin: 10px;
+            cursor: pointer;
+            float: left;
+            text-align: center;
+        }
+        .wrapper .show img{
+            width: 150px;
+            height: 150px;
+            background-size: 100% 100%;
+        }
+        .content{
+            width: 40%;
+            position: absolute;
+            bottom:5%;
+            left: 0;
+            right: 0;
+            margin: 0px auto;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <h2 class="head">电影列表</h1>
+        <div class="tpl">
+            <img src="./轮播图/img/cat1.jpg" alt="loading">
+            <h3>123</h3>
+        </div>
+    </div>
+    <div class="content"></div>
+
+    <script src="./jquery.js"></script>
+    <script>//回调地狱
+        // $.ajax({
+        //     url : "https://open.duyiedu.com/jq/movie/power",
+        //     type : "POST",
+        //     data : {
+        //         username : 'cst',
+        //         password : '123123'
+        //     },
+        //     success : function (res){
+        //         if(res.data.power == 'root'){//vip权限
+        //             $.ajax({
+        //                 url : "https://open.duyiedu.com/jq/movie/movieList",
+        //                 type : "GET",
+        //                 success : function(res){
+        //                     var $Wrapper = $('.wrapper');
+        //                     var data = res.data;
+        //                     var $Content = $('.content')
+        //                     $.each(data, function(index, ele){
+        //                         var $Show = $Wrapper.find('.tpl').clone().removeClass('tpl').addClass('show').data({
+        //                             id : ele.id,
+        //                             name : ele.name,
+        //                             poster : ele.poster
+        //                             });
+        //                         $Show.on('click', function (e){
+        //                                 $.ajax({
+        //                                     url : "https://open.duyiedu.com/jq/movie/movieInfo",
+        //                                     type : "GET",
+        //                                     data : {movieId : $(this).data('id')},
+        //                                     success : function(res){
+        //                                         var data = res.data;
+        //                                         $Content.children().remove();
+        //                                         $Content.append($(
+        //                                             '<h3>片名：'+ data.name + '</h3>\
+        //                                             <p>导演：' + data.direct + '</p>\
+        //                                             <p>编剧：' + data.screenwritter.join('、') + '</p>\
+        //                                             <p>主演：' + data.mainActor.join('、') + '</p>\
+        //                                             <p>简介：' + data.gut + '</p>'
+        //                                                 ));
+        //                                     }
+        //                                 })
+        //                         }).children()
+        //                                 .eq(0).attr('src', $Show.data('poster'))
+        //                                     .next('h3').html($Show.data('name'));
+        //                         $Wrapper.append($Show);
+
+        //                     });
+        //                 }
+        //             })
+        //         }else{
+        //             return false;
+        //         }
+        //     },
+        //     error : function(res){
+        //         $('body').html('you are not vip, please exit!');
+        //     }
+        // })
+    </script>
+    <script>//优化版
+        (function () {
+            return $.ajax({
+                url: "https://open.duyiedu.com/jq/movie/power",
+                type: "POST",
+                data: {
+                    username: 'cst',
+                    password: '123123'
+                }
+            });
+        })().then(function(res){
+            if (res.data.power == 'root') {//vip权限
+                return $.ajax({
+                    url: "https://open.duyiedu.com/jq/movie/movieList",
+                    type: "GET",
+                })
+            }
+        }).then(function (res) {
+            var $Wrapper = $('.wrapper');
+            var data = res.data;
+            var df = $.Deferred();
+            $.each(data, function (index, ele) {
+                var $Show = $Wrapper.find('.tpl').clone().removeClass('tpl').addClass('show').data({
+                    id: ele.id,
+                    name: ele.name,
+                    poster: ele.poster
+                });
+                    $Show.on('click', function (e) {
+                        var df = $.Deferred();
+                        return $.ajax({//因每次都要清理content内容，防止resolve失效,只能内嵌then
+                            url: "https://open.duyiedu.com/jq/movie/movieInfo",
+                            type: "GET",
+                            data: { movieId: $(this).data('id') },
+                        }).then(function(res){
+                                var data = res.data;
+                                var $Content = $('.content');
+                                $Content.children().remove();
+                                $Content.append($(
+                                    '<h3>片名：' + data.name + '</h3>\
+                                <p>导演：' + data.direct + '</p>\
+                                <p>编剧：' + data.screenwritter.join('、') + '</p>\
+                                <p>主演：' + data.mainActor.join('、') + '</p>\
+                                <p>简介：' + data.gut + '</p>'
+                                ));
+                            }
+                        )
+                    })
+
+                $Show.children()
+                    .eq(0).attr('src', $Show.data('poster'))
+                    .next('h3').html($Show.data('name'));
+                $Wrapper.append($Show);
+            })
+            return df.promise();
+        })
+
+
+    </script>
+</body>
+</html>

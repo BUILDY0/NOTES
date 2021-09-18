@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- <test-3 title="羊村摇"
+            poster="https://developer.duyiedu.com/bz/video/955bac93ccb7f240d25a79b2ff6a9fdbda9537bc.jpg@320w_200h.webp"
+            play="638000" rank="1207" /> -->
+        <test-3 :title="title" :poster="poster" :rank="rank" :play="play" :ttt="ttt" />
+    </div>
+    <script src="../vue.js"></script>
+    <script>
+        // props使用
+
+        Vue.component("test-3", {
+            props: ['poster', 'title', 'rank', 'play', ], //启用后同名数据会优先使用vm实例传入的数据（覆盖），传vm实例哪些在props里定义
+            template: `
+            <div>
+                <img :src="poster" :alt="title">
+                <span>{{play}}</span>
+                <span>{{rank}}</span>
+                <p>{{title}}</p>
+                <span>{{ttt}}</span>
+            </div>
+            `,
+            data() {
+                return {
+                    title: "羊村摇",
+                    poster: "https://developer.duyiedu.com/bz/video/955bac93ccb7f240d25a79b2ff6a9fdbda9537bc.jpg@320w_200h.webp",
+                    play: "638000",
+                    rank: "1207",
+                    ttt: 123,
+                }
+            }
+        })
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                title: "羊村摇",
+                poster: "https://developer.duyiedu.com/bz/video/955bac93ccb7f240d25a79b2ff6a9fdbda9537bc.jpg@320w_200h.webp",
+                play: "638000",
+                rank: "1207",
+                ttt: 456,
+            }
+        });
+    </script>
+</body>
+
+</html>

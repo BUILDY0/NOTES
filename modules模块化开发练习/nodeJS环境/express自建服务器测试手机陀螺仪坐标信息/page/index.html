@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid;
+            position: relative;
+            border-radius: 50%;
+        }
+
+        #pin {
+            position: absolute;
+            width: 30px;
+            height: 1px;
+            top: 50px;
+            left: 50px;
+            background-color: black;
+            transform-origin: 0 0;
+        }
+
+        #pin::after {
+            position: absolute;
+            left: 100%;
+            display: inline-block;
+            content: "N";
+            transform: rotate(90deg) translateX(-75%);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main"></div>
+    <div id="sub"></div>
+    <div class="box">
+        <div id="pin"></div>
+    </div>
+    <script>
+        let der = null;
+        const main = document.getElementById('main');
+        const sub = document.getElementById('sub');
+        if (window.DeviceOrientationEvent) {
+            main.innerHTML = 'true';
+            window.addEventListener('deviceorientation', function (e) {
+
+                main.innerHTML = `alpha:${e.alpha}\nbata:${e.beta}\ngamma:${e.gamma}`;
+                der = e.alpha;
+                pin.style.transform = `rotate(${der - 90}deg)`;
+            })
+        } else {
+            main.innerHTML = 'false';
+        }
+        if (window.DeviceMotionEvent) {
+            sub.innerHTML = "true";
+            window.addEventListener('devicemotion', e => {
+                sub.innerHTML =
+                    `\naceelerationX:${e.acceleration.x}\naceelerationY:${e.acceleration.y}\naceelerationZ:${e.acceleration.z}`;
+                if (Math.abs(e.acceleration.x) > 10 || Math.abs(e.acceleration.y) > 10 || Math.abs(e
+                        .acceleration.z) > 10) {
+                    window.alert('大脑在颤抖！');
+                }
+            })
+        } else {
+            sub.innerHTML = "false";
+        }
+    </script>
+</body>
+
+</html>

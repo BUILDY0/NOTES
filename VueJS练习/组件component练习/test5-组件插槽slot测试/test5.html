@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <test-5>
+            <template v-slot:header></template>
+            <template v-slot:default="{user}">{{user.name}}</template>
+            <template v-slot:footer></template>
+        </test-5>
+
+    </div>
+
+
+    <script src="../vue.js"></script>
+    <script>
+        // 插槽slot练习
+        Vue.component("test-5", {
+            template: `
+            <div>
+                <p><slot name="header">I'm header</slot></p>
+                <p><slot name="default" :user="user">I'm default</slot></p>
+                <p><slot name="footer">I'm footer</slot></p>
+            </div>
+            `,
+            data() {
+                return {
+                    user: {
+                        name: 'jack',
+                        age: 18
+                    }
+                }
+            }
+        })
+
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                user: {
+                    name: 'rose',
+                    age: 18
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

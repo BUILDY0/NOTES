@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>扫雷</title>
+    <link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+    <div class="wrapper">
+        <button class="startBtn">重新加载</button>
+        N阶设置：<input type = "text" name = "NSet" value="10">
+        雷数设置：<input type = "text" name = "MineName" value="10">
+        <br>
+        <div class="graphArea"></div>
+        <div class="alertGameover">
+            Game Over!
+            <div class="close">X</div>
+        </div>
+        <div class="mineBox"></div>
+        <span>剩余雷数：10</span>
+        <div class="alertCongratulation">
+            You Win!
+        </div>
+    </div>
+    <script src="./demo.js"></script>
+</body>
+</html>

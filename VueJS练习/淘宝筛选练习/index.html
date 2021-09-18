@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="goods" v-for="goods in goodsList" :key="goods.id">
+            <div>{{goods.title}}：</div>
+            <ul class="type-list">
+                <li class="type" v-for="(type,typeIndex) in goods.typeList" :class="{
+                    'active':typeIndex === goods.index
+                }" @click="typeClickHandle(type,typeIndex,goods)">{{type}}</li>
+            </ul>
+        </div>
+        <div class="choose-type">
+            <span>已选条件：</span>
+            <span class="no-goods" v-if="JSON.stringify(filterList)==='{}'">暂无条件被选中</span>
+            <div class="filter-list" v-else>
+                <li v-for="(list,listKey) in filterList">{{list}}<span class="delete-goods"
+                        @click="deleteFilterItem(listKey)">X</span></li>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../vue.js"></script>
+    <script>
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                goodsList: [{
+                        title: '上装',
+                        typeList: ['全部', '针织衫', '毛呢外套', 'T恤', '羽绒服', '棉衣', '卫衣', '风衣'],
+                        id: 1,
+                    },
+                    {
+                        title: '裤装',
+                        typeList: ['全部', '牛仔裤', '小脚/铅笔裤', '休闲裤', '打底裤', '哈伦裤'],
+                        id: 2,
+                    },
+                    {
+                        title: '裙装',
+                        typeList: ['全部', '连衣裙', '半身裙', '长袖连衣裙', '中长款连衣裙'],
+                        id: 3,
+                    }
+                ],
+                filterList: {},
+            },
+            methods: {
+                typeClickHandle(type, typeIndex, goods) {
+                    // 切换标签
+                    this.$set(goods, 'index', typeIndex);
+                    // 条件筛选添加
+                    this.$set(this.filterList, goods.id, type);
+                    // console.log(this.filterList);
+                },
+                deleteFilterItem(listKey) {
+                    // 删除对应list
+                    this.$delete(this.filterList, listKey);
+                    // goodlist重置index为0
+                    this.$set(this.goodsList[listKey - 1], 'index', 0);
+                }
+            }
+        });
+        vm.goodsList.forEach(element => {
+            vm.$set(element, "index", 0);
+        });
+        // console.log(vm.goodsList);
+    </script>
+</body>
+
+</html>

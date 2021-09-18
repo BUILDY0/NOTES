@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="area" v-for="area in 2">
+            <h2>{{area === 1 ? "问卷" : "问卷展示"}}</h2>
+            <ul>
+                <li v-for="question in questionList" :key="question.id">
+                    <h3>{{question.title}}</h3>
+                    <template v-if="area ===1">
+                        <input type="text" v-if="question.type === 'short'" v-model.lazy="question.answer">
+                        <div v-else-if="question.type === 'single'">
+                            <div v-for="(item,itemIndex) in question.chooseList">
+                                <input type="radio" :id="'radio'+itemIndex" name="radio" v-model.lazy="question.answer"
+                                    :value="item">
+                                <label :for="'radio'+itemIndex">{{item}}</label>
+                            </div>
+                        </div>
+                        <div v-else-if="question.type === 'multiple'">
+                            <div v-for="(item,itemIndex) in question.chooseList">
+                                <input type="checkbox" v-model.lazy="question.answer" :id="'checkbox'+itemIndex"
+                                    :value="item" name="checkbox">
+                                <label :for="'checkbox'+itemIndex">{{item}}</label>
+                            </div>
+                        </div>
+                        <textarea v-else="question.type === 'long'" v-model.lazy="question.answer"></textarea>
+                    </template>
+                    <span v-else>{{question.answer && question.answer.toString()}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="../vue.js"></script>
+    <script>
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                questionList: [{
+                        type: 'short',
+                        title: '1.请问你的姓名是？',
+                        chooseList: null,
+                        id: 0,
+                        answer: ""
+                    },
+                    {
+                        type: 'single',
+                        title: '2.请问您的性别是？',
+                        chooseList: [
+                            '男',
+                            '女',
+                            '保密',
+                        ],
+                        id: 1,
+                        answer: ""
+                    },
+                    {
+                        type: 'multiple',
+                        title: '3. 请选择您的兴趣爱好：',
+                        chooseList: [
+                            '看书',
+                            '游泳',
+                            '跑步',
+                            '看电影',
+                            '听音乐',
+                        ],
+                        id: 2,
+                        answer: []
+                    },
+                    {
+                        type: 'long',
+                        title: '4. 请介绍一下自己:',
+                        chooseList: null,
+                        id: 3,
+                        answer: ""
+                    },
+                ]
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="logo">
+            <img src="https://www.baidu.com/img/bd_logo1.png?where=super" title="点击一下，了解更多">
+        </div>
+
+        <div class="search-box">
+            <span class="search-area">
+                <input type="text" maxlength="100" v-model="inputValue" @focus="()=>focusBl = true"
+                    @blur="window.setTimeout(()=>{focusBl = false},100)">
+                <span class="icon icon-paizhao"></span>
+                <input type="file" />
+            </span>
+            <span class="search-btn" @click="()=>{window.open('https://www.baidu.com/s?wd='+inputValue)}">百度一下</span>
+        </div>
+
+        <ul class="search-list" v-show="focusBl && searchList.length">
+            <li v-for="item in searchList" :key="item" @click="inputValue = item">
+                {{item}}
+            </li>
+        </ul>
+    </div>
+    <script src="./jquery.js"></script>
+    <script src="../vue.js"></script>
+    <script>
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                inputValue: "",
+                searchList: [],
+                focusBl: false,
+                window: window
+            },
+            methods: {
+                searchRes(res) {
+                    this.searchList = res.s;
+                },
+            },
+            watch: {
+                inputValue() {
+                    $.ajax({
+                        url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
+                        dataType: "jsonp",
+                        data: {
+                            wd: this.inputValue,
+                            cb: "vm.searchRes"
+                        }
+                    })
+                }
+            },
+        });
+    </script>
+</body>
+
+</html>

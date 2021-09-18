@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul id="app">
+        <li v-for="(item,index) in itemTrue" :key="item.name">
+            {{item.name}}--{{item.age}}
+            <input type="text">
+            <button type="button" @click="clickHandle(index)">下移</button>
+        </li>
+    </ul>
+    <script src="../vue.js"></script>
+    <script>
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                items: [{
+                        name: "dog",
+                        age: 3,
+                        show: true
+                    },
+                    {
+                        name: "cat",
+                        age: 2,
+                        show: false
+                    },
+                    {
+                        name: "monkey",
+                        age: 4,
+                        show: true
+                    },
+                    {
+                        name: "fox",
+                        age: 3,
+                        show: false
+                    }
+                ],
+                itemTrue: [],
+            },
+            methods: {
+                clickHandle(index) {
+                    const sliceItem = this.itemTrue.splice(index, 1);
+                    this.itemTrue.splice(index + 1, 0, ...sliceItem);
+                }
+            }
+        })
+        vm.itemTrue = vm.items.filter(val => val.show)
+    </script>
+</body>
+
+</html>

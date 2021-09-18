@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --bl:#000;
+    --wh:#FFF;
+    --br:rgba(0,123,255,1);
+    --ye:rgb(236, 183, 10);
+    background-color: var(--bl);
+    height: 100%;
+    width: 100%;
+}
+@keyframes space-anime{
+    from{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.space{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to top, var(--wh), var(--br));
+    animation: space-anime 10s cubic-bezier(.5,0,.5,1) infinite;
+}
+
+@keyframes sunrise{
+    0%{
+        opacity: 0;
+        transform: scale(0.5,0.5) translateX(0) translateY(0);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(0.72,0.72) translateX(0) translateY(-400px);
+    }
+    60%{
+        opacity: 1;
+        transform: scale(0.72,0.72) translateX(0) translateY(-400px);
+    }
+    90%{
+        opacity: 0;
+        transform: scale(1,1) translateX(300px) translateY(0px);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1,1) translateX(300px) translateY(0px);
+    }
+}
+.sun{
+    position: absolute;
+    left: calc(50% - 125px);
+    top:calc(50% - 160px);
+    width: 250px;
+    height: 250px;
+    background-color: var(--wh);
+    border-radius: 50%;
+    transform: scale(0.7, 0.7);
+    box-shadow:0 0 50px 17px var(--ye),
+                0 0 100px 34px var(--ye),
+                inset 0 0 89px 38px var(--ye);
+    animation: sunrise 10s ease infinite;
+}
+@keyframes moonrise{
+    0%{
+        opacity: 1;
+        transform: translate(0,-300px);
+    }
+    30%{
+        opacity: 0;
+        transform: translate(0,-150px);
+    }
+    70%{
+        opacity: 0;
+        transform: translate(0,0);
+    }
+    85%{
+        opacity: 1;
+        transform: translate(0,-300px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,-300px);
+    }
+}
+.moon{
+    width: 120px;
+    height: 120px;
+    background-color: var(--wh);
+    position: absolute;
+    right: 5%;
+    top:40%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 30px var(--br),
+                -2px -2px 30px var(--bl);
+    animation: moonrise 10s ease infinite;
+}
+.moon::after{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    content: "";
+    background: var(--bl);
+    border-radius: 50%;
+    top: -10px;
+    left: -10px;
+}

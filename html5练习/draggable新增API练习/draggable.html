@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    div{
+        position: absolute;
+        left: 100px;
+        width: 300px;
+        height: auto;
+        border: 1px solid;
+        padding: 5px 0;
+    }
+    li{
+        list-style: none;
+        width: 200px;
+        height: 50px;
+        margin: 5px auto;
+        background-color: #abcdef;
+    }
+    .target{
+        left: 500px;
+    }
+</style>
+<body>
+    <div class="a">
+        <li></li>
+        <li></li>
+        <li></li>
+    </div>
+    <div class="target"></div>
+    <script>
+            var oA = document.getElementsByClassName('a')[0]
+            var oList = document.getElementsByTagName('li');
+            var oDom = document.getElementsByClassName('target')[0];
+            var target = null;
+            for (var index in oList) {
+                oList[index].draggable = true;
+                oList[index].ondragstart = function (e) {
+                    var e = e || window.event;
+                    target = e.target;
+                }
+            };
+            oA.ondragover = function (e) {
+                var e = e || window.event;
+                e.preventDefault();
+            }
+            oA.ondrop = function (e) {
+                var e = e || window.event;
+                this.appendChild(target);
+            }
+            oDom.ondragover = function (e) {
+                var e = e || window.event;
+                e.preventDefault();
+            }
+            oDom.ondrop = function (e) {
+                var e = e || window.event;
+                this.appendChild(target);
+            }
+    </script>
+</body>
+</html>

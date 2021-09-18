@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="app">
+        <test-1></test-1>
+        <test-1></test-1>
+        <test-1></test-1>
+        <test-1></test-1>
+    </div>
+
+    <script src="../vue.js"></script>
+    <script>
+        // 全局组件要定义在实例前面
+        Vue.component("test-1", {
+            data() {
+                return {
+                    count: 0,
+                }
+            },
+            // data: {
+            //     count: 0,
+            // },
+            template: `
+            <button @click="count++">你按了count{{count}}次</button>
+            `
+        })
+        const vm = new Vue({
+            el: "#app",
+        });
+    </script>
+</body>
+
+</html>

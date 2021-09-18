@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>step_demo1</title>
+</head>
+<style>
+    div{
+        height: 50px;
+        line-height: 50px;
+        display: inline-block;
+        font-size: 30px;
+        background-color: #F40;
+        font-family: monospace;
+        font-weight: bolder;
+        position: relative;
+    }
+    @keyframes afterrun{
+        0%{
+            border-left-color: black;
+        }
+        50%{
+            border-left-color: white;
+        }
+        100%{
+            border-left-color: black;
+        }
+    }
+    @keyframes moverun{
+        0%{
+            transform: translate(0,0);
+        }
+        100%{
+            transform: translate(100%,0)
+        }
+    }
+    div::after{
+        position: absolute;
+        left: 0%;
+        bottom: 0%;     
+        height: 40px;
+        width: 100%;
+        background-color: #FFF;
+        content: '';
+        border-left: 2px solid black;
+        animation: afterrun 1s steps(1, end) infinite, moverun 10s steps(10, end) forwards;
+    }
+
+</style>
+<body>
+    <div>moasmodmis</div>
+</body>
+</html>

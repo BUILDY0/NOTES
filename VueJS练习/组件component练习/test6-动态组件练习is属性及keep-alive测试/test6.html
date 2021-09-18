@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <button @click="whichCMP = 'is-a'">a</button>
+        <button @click="whichCMP = 'is-b'">b</button>
+        <keep-alive>
+            <component :is="whichCMP"></component>
+        </keep-alive>
+
+    </div>
+
+    <script src="../vue.js"></script>
+    <script>
+        // 动态组件练习
+        Vue.component("is-a", {
+            template: `
+            <div>
+                <button
+                    v-for="button in buttons"
+                    @click="buttonsVl = {template: '<div>'+ button.text +'</div>'}"
+                >{{button.title}}</button>   
+                <span><component :is="buttonsVl"></component></span>
+            
+            </div>
+            `,
+            data() {
+                return {
+                    buttonsVl: null,
+                    buttons: [{
+                            title: 'button1',
+                            text: 111,
+                            id: 1
+                        },
+                        {
+                            title: 'button2',
+                            text: 222,
+                            id: 2
+                        },
+                        {
+                            title: 'button3',
+                            text: 333,
+                            id: 3
+                        },
+                    ]
+                }
+            },
+            mounted() {
+                this.buttonsVl = {
+                    template: `<div>${this.buttons[0].text}</div>`
+                }
+            }
+        })
+
+        Vue.component("is-b", {
+            template: `
+            <span>b</span>
+            `,
+        })
+
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                whichCMP: ''
+            }
+        });
+    </script>
+</body>
+
+</html>

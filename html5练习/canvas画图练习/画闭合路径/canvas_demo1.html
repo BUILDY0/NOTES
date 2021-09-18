@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        canvas{
+            width: 500px;
+            height: 300px;
+            border: 1px solid red;
+        }
+        div>div{
+            width: 100px;
+            height: 100px;
+            border: 0.5px solid black;
+            box-sizing: border-box;
+            opacity: 0.3;
+            background-color: transparent;
+        }
+        .wrapper{
+            position: absolute;
+            width: 1000px;
+            height: 1000px;
+            display: flex;
+            /* display: none; */
+            overflow: hidden;
+            flex-wrap: wrap;
+            left: 0px;
+            top: 0px;
+            opacity: 0.3;
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <canvas width="500px" height="300px">
+    </canvas>
+    <div class="wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <script>
+        var oCan = document.getElementsByTagName('canvas')[0];
+        var ctx = oCan.getContext('2d');
+
+        // ctx.shadowColor = 'red';
+        // ctx.shadowOffsetY = 10;
+        // ctx.shadowOffsetX = 10;
+        ctx.lineWidth = 20;
+        ctx.moveTo(100, 100);
+        ctx.lineTo(200, 100);
+        ctx.lineTo(200, 200);
+        ctx.closePath();
+        ctx.fillStyle = 'green';
+        ctx.fill();
+        // ctx.fillRect(100,100,200,200);
+        ctx.stroke();
+
+        ctx.shadowColor = 'transparent';
+        ctx.beginPath();
+        ctx.lineWidth = 10;
+        ctx.moveTo(200, 100);
+        ctx.lineTo(300, 100);
+        ctx.lineTo(200, 200);
+        ctx.closePath();
+        ctx.fillStyle = 'red';
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.lineWidth = 1;
+        ctx.moveTo(300, 300);
+        ctx.bezierCurveTo(200,300,400,100,400,200);
+        ctx.closePath();
+        ctx.fill();
+        ctx.stroke();
+    </script>
+</body>
+</html>

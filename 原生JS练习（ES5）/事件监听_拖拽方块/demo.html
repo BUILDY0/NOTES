@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <title>demo</title>
+  <style>
+    * {
+      margin: 0%;
+      padding: 0%;
+      list-style: none;
+    }
+
+    ul li {
+      float: left;
+      line-height: 98px;
+      height: 98px;
+      width: 198px;
+      border: 1px solid black;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    ul {
+      position: absolute;
+      top: 10%;
+      left: 0%;
+      right: 0%;
+      margin: auto;
+      width: max-content;
+    }
+
+    #slider {
+      position: relative;
+      float: none;
+      background-color: burlywood;
+      opacity: 0.4;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: absolute;
+    }
+  </style>
+</head>
+
+<body>
+  <div></div>
+  <!-- <ul>
+   <li>demo1</li>
+    <li>demo2</li>
+    <li>demo3</li>
+    <li>demo4</li>
+    <li id="slider"></li>
+  </ul> -->
+  <script>
+    var div = document.getElementsByTagName('div')[0];
+    div.addEventListener('mousedown', mousedown);
+    function mousedown(e) {
+      clearInterval(this.timer);
+      var event = e || window.event;
+      var disX = e.clientX - div.offsetLeft, //鼠标X坐标距左顶点偏移
+        disY = e.clientY - div.offsetTop, //鼠标Y坐标距左顶点偏移
+        lastX = [],
+        lastY = [];
+      document.addEventListener('mousemove', mousemove);
+      document.addEventListener('mouseup', mouseup)
+
+
+      function mousemove(e) {
+        var event = e || window.event;
+        div.style.left = e.clientX - disX + 'px';
+        div.style.top = e.clientY - disY + 'px';
+        lastX.push(e.clientX );
+        lastY.push(e.clientY );
+        if(lastX.length > 3 || lastY.length > 3){
+          lastX.shift();lastY.shift()
+        }
+      }
+
+      function mouseup(e) {
+        var event = e || window.event;
+        document.removeEventListener('mouseup', mouseup);
+        document.removeEventListener('mousemove', mousemove);
+        console.log(lastX, lastY);
+        move(div, lastX[2] - lastX[0], lastY[2] - lastY[0]);
+      }
+
+      function move(dom, speedX, speedY) {
+        var g = 3, u = 0.975;
+        dom.timer = setInterval(function () {
+          speedX *= u;
+          speedY = speedY * u + g ;
+          dom.style.left = div.offsetLeft + speedX + 'px';
+          dom.style.top = div.offsetTop + speedY + 'px';
+          //碰到墙壁反向
+          if (dom.offsetLeft >= document.documentElement.clientWidth - dom.offsetWidth) {
+            dom.style.left = document.documentElement.clientWidth - dom.offsetWidth + 'px';
+            speedX *= -0.9;
+          }
+          if (dom.offsetLeft <= 0) {
+            dom.style.left = 0 + 'px';
+            speedX *= -0.9;
+          }
+          if (dom.offsetTop >= document.documentElement.clientHeight - dom.offsetHeight) {
+            dom.style.top = document.documentElement.clientHeight - dom.offsetHeight + 'px';
+            speedY *= -0.9;
+          }
+          if (dom.offsetTop <= 0) {
+            dom.style.top = 0 + 'px';
+            speedY *= -0.9;
+          }
+          if (Math.abs(speedX) < 1) {
+            speedX = 0;
+          }
+          if (Math.abs(speedY) < 1) {
+            speedY = 0;
+          }
+          if (speedX == 0 && speedY == 0 && dom.offsetTop == document.documentElement.clientHeight - dom.offsetHeight) {
+            clearInterval(dom.timer);
+          }
+          console.log(speedX , speedY);
+            
+        }, 30)
+      }
+    }
+
+
+
+
+    //滑动效果
+    // var slider = document.getElementById('slider');
+    // var liArr = document.getElementsByTagName('li');
+    // for(var i = 0; i < liArr.length - 1; i ++){
+    //   liArr[i].addEventListener('mouseenter',function(){
+    //     move(slider, this.offsetLeft);
+    //   },false)
+    // }
+    // function move(dom, target){
+    //   clearInterval(dom.timer);
+    //   var a, v = 0;  
+    //   dom.timer = setInterval( function(){
+    //     a = (target - dom.offsetLeft) / 2;
+    //     v += a;
+    //     v *= 0.7
+    //     dom.style.left = dom.offsetLeft + v + 'px';
+    //     if(Math.abs(v) < 1 && Math.abs(target - dom.offsetLeft) < 1){
+    //       clearInterval(dom.timer)
+    //       dom.style.left = target + 'px';
+    //     }
+    //   } ,30)  
+    // }
+
+    //  三国杀五阶武将计算
+    // function _5jie(_2, _3, _4, _5, n) {
+    //   for (var num = 0; 1;) {
+    //     if (_2 > 0 && _3 > 0 && _4 > 0 && _5 > 0) {
+    //       _2--;
+    //       _3--;
+    //       _4--;
+    //       _5--;
+    //       num++;
+    //     } else if (_2 > 0 && _3 > 0 && _4 > 3 && n >= 900) {
+    //       _4 -= 3;
+    //       n -= 900;
+    //       _5++;
+    //     } else if (_2 > 0 && _3 > 3 && n >= 360) {
+    //       _3 -= 3;
+    //       n -= 360;
+    //       _4++;
+    //     } else if (_2 > 0 && n >= 90) {
+    //       _2 -= 3;
+    //       n -= 90;
+    //       _3++;
+    //     } else {return num;}
+    //   }
+    // }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+
+    <div id="app">
+        <div :style="{fontSize: fontsize + 'em'}">
+            <test-4 v-for="post in posts" :key="post.title" :post="post" @click="increaseFontsize"></test-4>
+        </div>
+        <msg v-model="msg"></msg>
+        <!-- <div :style="{fontSize: postFontSize + 'em'}">
+            <blog-post v-for="post in posts" :post="post" :key="post.id" @click="postFontSize  += $event">
+            </blog-post>
+        </div> -->
+
+    </div>
+    <script src="../vue.js"></script>
+    <script>
+        // 增大字号练习
+        Vue.component("msg", {
+            props: ["value"],
+            template: `
+                <input type='text' :value="value" @input="$emit('input','haha')"/>
+            `
+        })
+
+
+        Vue.component("test-4", {
+            props: {
+                post: Object,
+            },
+            template: `
+            <div>
+                <h3>{{post.title}}</h3>
+                <p>{{post.content}}</p>
+                <button @click="$emit('click',0.2)">增加字号</button>
+            </div>
+            `
+        })
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                fontsize: 1,
+                posts: [{
+                        title: 'title1',
+                        content: 'content1'
+                    },
+                    {
+                        title: 'title2',
+                        content: 'content2'
+                    },
+                    {
+                        title: 'title3',
+                        content: 'content3'
+                    },
+                    {
+                        title: 'title4',
+                        content: 'content4'
+                    },
+                ],
+                msg: 123
+            },
+            methods: {
+                increaseFontsize(e) {
+                    this.fontsize += e;
+                }
+            }
+        });
+
+
+
+
+
+        //     Vue.component('blog-post', {
+        //         props: {
+        //             post: Object
+        //         },
+        //         template: `
+        //     <div>
+        //       <h3>{{ post.title }}</h3>
+        //       <button @click="$emit('click',0.2)">放大字號</button>
+        //       <div>{{ post.content }}</div>
+        //     </div>
+        //   `
+        //     })
+        //     const vm = new Vue({
+        //         el: '#app',
+        //         data: {
+        //             postFontSize: 1, // 1 em
+        //             posts: [{
+        //                     title: '標題',
+        //                     content: '内容内容内容',
+        //                     id: 0
+        //                 },
+        //                 {
+        //                     title: '標題1',
+        //                     content: '内容内容内容',
+        //                     id: 1
+        //                 },
+        //                 {
+        //                     title: '標題2',
+        //                     content: '内容内容内容',
+        //                     id: 2
+        //                 },
+        //                 {
+        //                     title: '標題3',
+        //                     content: '内容内容内容',
+        //                     id: 3
+        //                 },
+        //             ],
+        //             name: 'shanshan',
+        //             checked: true
+        //         },
+        //         methods: {
+        //             // onEnlargeText(e) {
+        //             //     this.postFontSize += e;
+        //             // },
+        //             onFocus() {
+        //                 console.log('focus');
+        //             },
+        //             onBlur() {
+        //                 console.log('Blur');
+        //             },
+        //         },
+        //     })
+    </script>
+</body>
+
+</html>
