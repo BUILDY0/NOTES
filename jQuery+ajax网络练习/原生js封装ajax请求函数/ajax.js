@@ -17,7 +17,7 @@ function ajax(url) {
             })
         }
     }
-    xhr.send();
+    xhr.send(null);
 
     // readyState == 4表示请求完成，已经接收到数据。
     // status == 200  网络请求，结果都会有一个状态码。来表示这个请求是否正常
