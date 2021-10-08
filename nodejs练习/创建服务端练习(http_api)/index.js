@@ -3,7 +3,8 @@ const url = require('url');
 const fs = require('fs')
 const conf = require('./config');
 const loader = require('./loader');
-const path = require('path')
+const path = require('path');
+const log = require('./log')
 http.createServer((request, response) => {
     const pathName = url.parse(request.url).pathname;
     const params = url.parse(request.url, true).query;
@@ -13,8 +14,10 @@ http.createServer((request, response) => {
         try {
             const data = fs.readFileSync(path.resolve(__dirname, conf.page_path + pathName))
             loader.return200(response, data);
+            log(`读取${path.resolve(__dirname, conf.page_path + pathName)}成功`);
         } catch (error) {
             loader.return404(response);
+            log(`读取${path.resolve(__dirname, conf.page_path + pathName)}失败`);
         }
     } else {
         // 加载动态资源
@@ -22,10 +25,15 @@ http.createServer((request, response) => {
         if (loader.pathMap.get(pathName)) {
             try {
                 loader.pathMap.get(pathName)(request, response);
+                log(`读取 pathMap[${pathName}] 成功`);
             } catch (error) {
                 loader.return404(response);
+                log(`读取 pathMap[${pathName}] 失败`);
             }
+        } else {
+            log(`在pathMap中未找到${pathName} 失败`);
         }
+
     }
 }).listen(conf.port)
 
