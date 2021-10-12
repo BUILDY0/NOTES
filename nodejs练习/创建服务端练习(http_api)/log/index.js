@@ -12,7 +12,8 @@ function log(str, cb, option) {
         option = option || {
             flag: 'a'
         };
-        fs.writeFile(p.resolve(__dirname, 'log.txt'), str + '\n', option, cb);
+        const now = new Date();
+        fs.writeFile(p.resolve(__dirname, 'log.txt'), `${now.toLocaleString()} ${str}\n`, option, cb);
         console.log('日志已生成！');
     } catch (error) {
         throw new Error('生成文件错误!\n', error);

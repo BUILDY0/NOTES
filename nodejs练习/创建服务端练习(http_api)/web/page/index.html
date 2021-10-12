@@ -8,11 +8,45 @@
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
     <script src="./login.js"></script>
+
 </head>
 
 <body>
     <div>hello world!</div>
     <img src="./1.png" alt="">
+    <div>
+        用户名：<input type="text" id="username" />
+        密码：<input type="password" id="pwd" />
+        <button type="submit" id="submit" onclick="login()">提交</button>
+    </div>
+    <script>
+        const username = document.getElementById('username');
+        const pwd = document.getElementById('pwd');
+
+        function login() {
+            if (!username.value || !pwd.value) {
+                return false;
+            }
+            let params = 'num=' + username.value + '&pwd=' + pwd.value;
+            fetch('/login',
+                // '/login?' + params, {
+                // method: 'get',
+                {
+                    method: 'POST',
+                    headers: {
+                        "Content-Type": 'utf-8',
+                    },
+                    body: params
+                }).then(res => res.text().then(res => {
+                console.log(res);
+                if (res === 'ok') {
+                    window.alert('登录成功！');
+                } else {
+                    window.alert('登录失败');
+                }
+            }))
+        }
+    </script>
 </body>
 
 </html>

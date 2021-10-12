@@ -21,10 +21,11 @@ http.createServer((request, response) => {
         }
     } else {
         // 加载动态资源
-        console.log('加载动态资源');
+        // console.log('加载动态资源');
+        // console.log(pathName, params);
         if (loader.pathMap.get(pathName)) {
             try {
-                loader.pathMap.get(pathName)(request, response);
+                loader.pathMap.get(pathName)(request, response, params);
                 log(`读取 pathMap[${pathName}] 成功`);
             } catch (error) {
                 loader.return404(response);

@@ -6,7 +6,7 @@ function return200(response, data) {
 }
 
 function return404(response) {
-    response.writeHead(400);
+    response.writeHead(404);
     response.write(`<html><body><h1>404 NotFound</h1></body></html>`);
     response.end();
 }
@@ -35,7 +35,7 @@ for (let i = 0; i < webDirs.length; i++) {
         continue;
     }
 }
-console.log(pathMap);
+
 module.exports = {
     return200,
     return404,
