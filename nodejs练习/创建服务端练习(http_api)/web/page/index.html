@@ -14,14 +14,16 @@
 <body>
     <div>hello world!</div>
     <img src="./1.png" alt="">
-    <div>
-        用户名：<input type="text" id="username" />
-        密码：<input type="password" id="pwd" />
-        <button type="submit" id="submit" onclick="login()">提交</button>
-    </div>
+    <form method="post" action="/login">
+        用户名：<input type="text" id="username" name="num" />
+        密码：<input type="password" id="pwd" name="pwd" />
+        <button type="submit" id="submit">提交</button>
+    </form>
     <script>
         const username = document.getElementById('username');
         const pwd = document.getElementById('pwd');
+
+
 
         function login() {
             if (!username.value || !pwd.value) {
@@ -29,21 +31,26 @@
             }
             let params = 'num=' + username.value + '&pwd=' + pwd.value;
             fetch('/login',
+                // get请求
                 // '/login?' + params, {
                 // method: 'get',
+
+                // post请求
                 {
                     method: 'POST',
+                    withCredential: true,
+                    // "Cookie": `num=${username.value};pwd=${pwd.value};httpOnly;${getExpireTime()}`,
                     headers: {
                         "Content-Type": 'utf-8',
                     },
                     body: params
                 }).then(res => res.text().then(res => {
                 console.log(res);
-                if (res === 'ok') {
-                    window.alert('登录成功！');
-                } else {
-                    window.alert('登录失败');
-                }
+                // if (res === 'ok') {
+                //     window.location.href = '/login.html'
+                // } else {
+                //     window.location.href = '/register.html'
+                // }
             }))
         }
     </script>

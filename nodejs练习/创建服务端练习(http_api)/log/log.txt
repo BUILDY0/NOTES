@@ -873,3 +873,968 @@ Mon Oct 11 2021 18:10:24 GMT+0800 (中国标准时间)读取 pathMap[/getData] �
 2021/10/13 上午1:08:11 读取 pathMap[/login] 成功
 2021/10/13 上午1:08:31 读取 pathMap[/login] 成功
 2021/10/13 上午1:08:47 读取 pathMap[/login] 成功
+2021/10/14 上午12:36:00 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:36:03 在pathMap中未找到/ 失败
+2021/10/14 上午12:36:08 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午12:36:09 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午12:36:09 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午12:36:09 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午12:36:09 读取 pathMap[/getData] 成功
+2021/10/14 上午12:36:14 读取 pathMap[/login] 成功
+2021/10/14 上午12:36:16 读取 pathMap[/login] 成功
+2021/10/14 上午12:36:29 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:36:57 读取 pathMap[/login] 成功
+2021/10/14 上午12:36:58 读取 pathMap[/login] 成功
+2021/10/14 上午12:41:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午12:41:01 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午12:41:01 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午12:41:01 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午12:41:01 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午12:41:01 读取 pathMap[/getData] 成功
+2021/10/14 上午12:41:01 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:41:11 读取 pathMap[/login] 成功
+2021/10/14 上午12:41:11 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 上午12:41:11 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:41:13 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:41:17 读取 pathMap[/login] 成功
+2021/10/14 上午12:41:17 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 上午12:41:18 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:41:19 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:52:12 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:52:22 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午12:52:22 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午12:52:22 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午12:52:22 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午12:52:22 读取 pathMap[/getData] 成功
+2021/10/14 上午12:52:22 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:52:26 读取 pathMap[/login] 失败
+2021/10/14 上午12:52:26 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 上午12:52:26 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:53:25 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:53:26 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午12:53:26 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午12:53:26 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午12:53:26 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午12:53:26 读取 pathMap[/getData] 成功
+2021/10/14 上午12:53:26 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:53:31 读取 pathMap[/login] 失败
+2021/10/14 上午12:53:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 上午12:53:31 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:53:43 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 上午12:53:43 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:53:45 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:53:46 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:53:50 读取 pathMap[/login] 失败
+2021/10/14 上午12:53:50 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 上午12:53:50 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:56:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午12:56:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午12:56:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午12:56:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午12:56:29 读取 pathMap[/getData] 成功
+2021/10/14 上午12:56:29 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:56:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午12:56:38 读取 pathMap[/login] 失败
+2021/10/14 上午12:57:26 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:57:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午12:57:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午12:57:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午12:57:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午12:57:29 读取 pathMap[/getData] 成功
+2021/10/14 上午12:57:29 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:57:34 读取 pathMap[/login] 成功
+2021/10/14 上午12:57:44 读取 pathMap[/login] 成功
+2021/10/14 上午12:57:47 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午12:57:47 读取 pathMap[/login] 成功
+2021/10/14 上午12:57:49 读取 pathMap[/login] 成功
+2021/10/14 上午12:57:58 读取 pathMap[/login] 成功
+2021/10/14 上午1:00:34 读取 pathMap[/login] 成功
+2021/10/14 上午1:07:33 读取 pathMap[/login] 成功
+2021/10/14 上午1:07:43 读取 pathMap[/login] 成功
+2021/10/14 上午1:07:48 读取 pathMap[/login] 成功
+2021/10/14 上午1:08:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:08:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:08:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:08:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:08:31 读取 pathMap[/getData] 成功
+2021/10/14 上午1:08:31 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:08:37 读取 pathMap[/login] 成功
+2021/10/14 上午1:11:26 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:11:26 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:11:26 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:11:26 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:11:27 读取 pathMap[/getData] 成功
+2021/10/14 上午1:11:27 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:11:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:11:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:11:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:11:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:11:37 读取 pathMap[/getData] 成功
+2021/10/14 上午1:11:37 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:11:44 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:11:47 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:11:47 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:11:47 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:11:47 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:11:47 读取 pathMap[/getData] 成功
+2021/10/14 上午1:11:47 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:12:04 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:12:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:12:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:12:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:12:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:12:05 读取 pathMap[/getData] 成功
+2021/10/14 上午1:12:05 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:12:06 读取 pathMap[/login] 成功
+2021/10/14 上午1:13:53 读取 pathMap[/login] 成功
+2021/10/14 上午1:13:53 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:13:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:13:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:13:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:13:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:13:55 读取 pathMap[/getData] 成功
+2021/10/14 上午1:13:55 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:13:55 读取 pathMap[/login] 成功
+2021/10/14 上午1:14:15 读取 pathMap[/login] 成功
+2021/10/14 上午1:14:15 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:14:34 读取 pathMap[/login] 成功
+2021/10/14 上午1:17:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:17:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:17:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:17:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:17:36 读取 pathMap[/getData] 成功
+2021/10/14 上午1:17:36 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:17:37 读取 pathMap[/login] 成功
+2021/10/14 上午1:18:06 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:18:06 读取 pathMap[/login] 成功
+2021/10/14 上午1:18:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:18:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:18:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:18:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:18:06 读取 pathMap[/getData] 成功
+2021/10/14 上午1:18:06 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:18:07 读取 pathMap[/login] 成功
+2021/10/14 上午1:20:19 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:20:19 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:20:19 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:20:19 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:20:19 读取 pathMap[/getData] 成功
+2021/10/14 上午1:20:19 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:20:21 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:20:21 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:20:21 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:20:21 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:20:21 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:20:21 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:20:21 读取 pathMap[/getData] 成功
+2021/10/14 上午1:20:29 读取 pathMap[/login] 成功
+2021/10/14 上午1:20:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:20:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:20:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:20:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:20:31 读取 pathMap[/getData] 成功
+2021/10/14 上午1:20:31 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:20:59 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:21:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:21:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:21:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:21:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:21:00 读取 pathMap[/getData] 成功
+2021/10/14 上午1:21:00 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:21:01 读取 pathMap[/login] 成功
+2021/10/14 上午1:21:27 读取 pathMap[/login] 成功
+2021/10/14 上午1:22:21 读取 pathMap[/login] 成功
+2021/10/14 上午1:22:22 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:22:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:22:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:22:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:22:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:22:25 读取 pathMap[/getData] 成功
+2021/10/14 上午1:22:25 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:22:27 读取 pathMap[/login] 成功
+2021/10/14 上午1:22:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:22:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:22:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:22:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:22:52 读取 pathMap[/getData] 成功
+2021/10/14 上午1:22:52 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:22:53 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:22:54 读取 pathMap[/login] 成功
+2021/10/14 上午1:23:47 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:23:47 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:23:47 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:23:47 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:23:47 读取 pathMap[/getData] 成功
+2021/10/14 上午1:23:47 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:23:48 读取 pathMap[/login] 成功
+2021/10/14 上午1:24:24 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:24:24 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:24:24 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:24:24 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:24:24 读取 pathMap[/getData] 成功
+2021/10/14 上午1:24:24 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:24:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:24:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:24:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:24:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:24:27 读取 pathMap[/getData] 成功
+2021/10/14 上午1:24:27 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:24:32 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:24:32 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:24:32 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:24:32 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:24:32 读取 pathMap[/getData] 成功
+2021/10/14 上午1:24:32 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:24:33 读取 pathMap[/login] 成功
+2021/10/14 上午1:25:06 读取 pathMap[/login] 成功
+2021/10/14 上午1:25:06 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:25:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:25:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:25:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:25:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:25:06 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:25:07 读取 pathMap[/getData] 成功
+2021/10/14 上午1:25:07 读取 pathMap[/login] 成功
+2021/10/14 上午1:25:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:25:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:25:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:25:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:25:15 读取 pathMap[/getData] 成功
+2021/10/14 上午1:25:15 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:25:16 读取 pathMap[/login] 成功
+2021/10/14 上午1:25:20 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:25:20 读取 pathMap[/login] 成功
+2021/10/14 上午1:25:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:25:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:25:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:25:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:25:20 读取 pathMap[/getData] 成功
+2021/10/14 上午1:25:20 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:25:21 读取 pathMap[/login] 成功
+2021/10/14 上午1:28:27 读取 pathMap[/login] 成功
+2021/10/14 上午1:28:27 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:28:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:28:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:28:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:28:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:28:29 读取 pathMap[/getData] 成功
+2021/10/14 上午1:28:29 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:28:30 读取 pathMap[/login] 成功
+2021/10/14 上午1:28:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:28:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:28:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:28:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:28:44 读取 pathMap[/getData] 成功
+2021/10/14 上午1:28:44 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:28:45 读取 pathMap[/login] 成功
+2021/10/14 上午1:28:48 读取 pathMap[/login] 成功
+2021/10/14 上午1:28:48 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:29:11 读取 pathMap[/login] 成功
+2021/10/14 上午1:29:11 读取 pathMap[/login] 成功
+2021/10/14 上午1:29:12 读取 pathMap[/login] 成功
+2021/10/14 上午1:29:14 读取 pathMap[/login] 成功
+2021/10/14 上午1:30:11 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:30:11 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:30:11 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:30:11 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:30:11 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:30:11 读取 pathMap[/getData] 成功
+2021/10/14 上午1:30:14 读取 pathMap[/login] 成功
+2021/10/14 上午1:30:18 读取 pathMap[/login] 成功
+2021/10/14 上午1:30:18 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:30:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:30:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:30:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:30:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:30:20 读取 pathMap[/getData] 成功
+2021/10/14 上午1:30:20 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:30:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:30:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:30:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:30:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:30:29 读取 pathMap[/getData] 成功
+2021/10/14 上午1:30:29 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:30:30 读取 pathMap[/login] 成功
+2021/10/14 上午1:30:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:30:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:30:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:30:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:30:44 读取 pathMap[/getData] 成功
+2021/10/14 上午1:30:44 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:30:48 读取 pathMap[/login] 成功
+2021/10/14 上午1:30:51 读取 pathMap[/login] 成功
+2021/10/14 上午1:30:51 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:30:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:30:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:30:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:30:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:30:53 读取 pathMap[/getData] 成功
+2021/10/14 上午1:30:53 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:30:53 读取 pathMap[/login] 成功
+2021/10/14 上午1:31:07 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:31:07 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:31:07 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:31:07 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:31:07 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:31:07 读取 pathMap[/getData] 成功
+2021/10/14 上午1:31:08 读取 pathMap[/login] 成功
+2021/10/14 上午1:31:10 读取 pathMap[/login] 成功
+2021/10/14 上午1:31:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:31:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:31:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:31:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:31:12 读取 pathMap[/getData] 成功
+2021/10/14 上午1:31:12 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:31:13 读取 pathMap[/login] 成功
+2021/10/14 上午1:31:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:31:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:31:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:31:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:31:23 读取 pathMap[/getData] 成功
+2021/10/14 上午1:31:23 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:31:24 读取 pathMap[/login] 成功
+2021/10/14 上午1:31:27 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:31:27 读取 pathMap[/login] 成功
+2021/10/14 上午1:31:48 读取 pathMap[/login] 成功
+2021/10/14 上午1:32:13 读取 pathMap[/login] 成功
+2021/10/14 上午1:32:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:32:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:32:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:32:30 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:32:30 读取 pathMap[/getData] 成功
+2021/10/14 上午1:32:30 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:32:32 读取 pathMap[/login] 成功
+2021/10/14 上午1:32:38 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:32:38 读取 pathMap[/login] 成功
+2021/10/14 上午1:32:40 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:32:40 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:32:40 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:32:40 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:32:40 读取 pathMap[/getData] 成功
+2021/10/14 上午1:32:40 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:32:41 读取 pathMap[/login] 成功
+2021/10/14 上午1:32:50 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:32:50 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:32:50 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:32:50 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:32:50 读取 pathMap[/getData] 成功
+2021/10/14 上午1:32:50 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:32:54 读取 pathMap[/login] 成功
+2021/10/14 上午1:33:05 读取 pathMap[/login] 成功
+2021/10/14 上午1:33:05 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:33:32 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:33:32 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:33:32 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:33:32 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:33:32 读取 pathMap[/getData] 成功
+2021/10/14 上午1:33:32 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:33:36 读取 pathMap[/login] 成功
+2021/10/14 上午1:33:59 读取 pathMap[/login] 成功
+2021/10/14 上午1:34:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:34:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:34:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:34:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:34:02 读取 pathMap[/getData] 成功
+2021/10/14 上午1:34:02 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:34:03 读取 pathMap[/login] 成功
+2021/10/14 上午1:34:18 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:34:18 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:34:18 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:34:18 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:34:18 读取 pathMap[/getData] 成功
+2021/10/14 上午1:34:18 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:34:19 读取 pathMap[/login] 成功
+2021/10/14 上午1:34:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:34:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:34:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:34:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:34:28 读取 pathMap[/getData] 成功
+2021/10/14 上午1:34:28 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:34:29 读取 pathMap[/login] 成功
+2021/10/14 上午1:34:49 读取 pathMap[/login] 成功
+2021/10/14 上午1:35:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:35:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:35:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:35:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:35:12 读取 pathMap[/getData] 成功
+2021/10/14 上午1:35:12 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:35:14 读取 pathMap[/login] 成功
+2021/10/14 上午1:35:58 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:35:58 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:35:58 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:35:58 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:35:58 读取 pathMap[/getData] 成功
+2021/10/14 上午1:35:58 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:35:59 读取 pathMap[/login] 成功
+2021/10/14 上午1:36:16 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:36:16 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:36:16 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:36:16 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:36:16 读取 pathMap[/getData] 成功
+2021/10/14 上午1:36:16 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:36:27 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:36:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:36:32 读取 pathMap[/login] 成功
+2021/10/14 上午1:36:55 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:36:55 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:36:55 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:36:55 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:36:55 读取 pathMap[/getData] 成功
+2021/10/14 上午1:36:55 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:37:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:37:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:37:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:37:38 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:37:38 读取 pathMap[/getData] 成功
+2021/10/14 上午1:37:38 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:37:39 读取 pathMap[/login] 成功
+2021/10/14 上午1:38:19 在pathMap中未找到/ 失败
+2021/10/14 上午1:38:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:38:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:38:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:38:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:38:25 读取 pathMap[/getData] 成功
+2021/10/14 上午1:38:25 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:38:28 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:39:38 读取 pathMap[/login] 成功
+2021/10/14 上午1:40:04 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:40:04 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:40:04 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:40:04 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:40:04 读取 pathMap[/getData] 成功
+2021/10/14 上午1:40:04 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:40:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:40:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:40:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:40:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:40:05 读取 pathMap[/getData] 成功
+2021/10/14 上午1:40:05 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:40:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:40:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:40:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:40:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:40:31 读取 pathMap[/getData] 成功
+2021/10/14 上午1:40:31 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:40:35 读取 pathMap[/login] 成功
+2021/10/14 上午1:40:35 读取 pathMap[/login] 成功
+2021/10/14 上午1:41:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:41:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:41:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:41:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:41:06 读取 pathMap[/getData] 成功
+2021/10/14 上午1:41:06 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:41:13 读取 pathMap[/login] 成功
+2021/10/14 上午1:41:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:41:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:41:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:41:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:41:33 读取 pathMap[/getData] 成功
+2021/10/14 上午1:41:33 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:41:38 读取 pathMap[/login] 成功
+2021/10/14 上午1:41:46 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:41:46 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:41:46 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:41:46 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:41:46 读取 pathMap[/getData] 成功
+2021/10/14 上午1:41:46 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:41:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:41:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:41:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:41:52 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:41:52 读取 pathMap[/getData] 成功
+2021/10/14 上午1:41:52 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:41:58 读取 pathMap[/login] 成功
+2021/10/14 上午1:42:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:42:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:42:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:42:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:42:12 读取 pathMap[/getData] 成功
+2021/10/14 上午1:42:12 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:42:19 读取 pathMap[/login] 成功
+2021/10/14 上午1:42:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:42:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:42:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:42:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:42:39 读取 pathMap[/getData] 成功
+2021/10/14 上午1:42:39 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:42:44 读取 pathMap[/login] 成功
+2021/10/14 上午1:45:35 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:45:35 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:45:35 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:45:35 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:45:35 读取 pathMap[/getData] 成功
+2021/10/14 上午1:45:35 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:45:37 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:45:37 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:45:39 读取 pathMap[/login] 失败
+2021/10/14 上午1:46:56 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:46:56 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:46:56 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:46:56 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:46:56 读取 pathMap[/getData] 成功
+2021/10/14 上午1:46:56 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:46:57 读取 pathMap[/login] 失败
+2021/10/14 上午1:48:58 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:48:58 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:48:58 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:48:58 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:48:58 读取 pathMap[/getData] 成功
+2021/10/14 上午1:48:58 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:48:59 读取 pathMap[/login] 失败
+2021/10/14 上午1:49:03 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:49:04 读取 pathMap[/login] 失败
+2021/10/14 上午1:50:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 上午1:50:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 上午1:50:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 上午1:50:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 上午1:50:06 读取 pathMap[/getData] 成功
+2021/10/14 上午1:50:06 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:50:07 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:50:09 读取 pathMap[/login] 失败
+2021/10/14 上午1:50:23 读取 pathMap[/login] 失败
+2021/10/14 上午1:50:24 读取 pathMap[/login] 失败
+2021/10/14 上午1:50:41 读取 pathMap[/login] 失败
+2021/10/14 上午1:50:41 在pathMap中未找到/favicon.ico 失败
+2021/10/14 上午1:51:01 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:03:17 读取 pathMap[/login] 失败
+2021/10/14 下午5:03:17 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:03:22 在pathMap中未找到/html 失败
+2021/10/14 下午5:03:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:03:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:03:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:03:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:03:25 读取 pathMap[/getData] 成功
+2021/10/14 下午5:03:25 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:03:27 读取 pathMap[/login] 失败
+2021/10/14 下午5:03:57 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:03:57 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:03:57 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:03:57 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:03:57 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:03:58 读取 pathMap[/getData] 成功
+2021/10/14 下午5:03:58 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:03:58 读取 pathMap[/login] 成功
+2021/10/14 下午5:03:58 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:04:11 读取 pathMap[/login] 成功
+2021/10/14 下午5:04:11 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:04:11 读取 pathMap[/login] 成功
+2021/10/14 下午5:04:11 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:04:12 读取 pathMap[/login] 成功
+2021/10/14 下午5:04:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:04:16 读取 pathMap[/login] 成功
+2021/10/14 下午5:04:16 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:04:21 读取 pathMap[/login] 成功
+2021/10/14 下午5:04:21 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:04:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:05:14 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:05:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:05:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:05:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:05:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:05:14 读取 pathMap[/getData] 成功
+2021/10/14 下午5:05:14 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:05:23 读取 pathMap[/login] 成功
+2021/10/14 下午5:05:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:05:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:05:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:05:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:05:29 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:05:29 读取 pathMap[/getData] 成功
+2021/10/14 下午5:05:29 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:05:33 读取 pathMap[/login] 成功
+2021/10/14 下午5:05:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:05:44 读取 pathMap[/login] 成功
+2021/10/14 下午5:05:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:05:45 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:06:09 读取 pathMap[/login] 成功
+2021/10/14 下午5:06:09 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:06:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:06:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:06:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:06:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:06:25 读取 pathMap[/getData] 成功
+2021/10/14 下午5:06:25 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:06:27 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:06:31 读取 pathMap[/login] 成功
+2021/10/14 下午5:06:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:06:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:06:49 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:06:50 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:06:50 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:06:50 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:06:50 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:06:50 读取 pathMap[/getData] 成功
+2021/10/14 下午5:06:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:06:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:06:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:06:55 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:06:55 读取 pathMap[/getData] 成功
+2021/10/14 下午5:06:55 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:07:03 读取 pathMap[/login] 成功
+2021/10/14 下午5:07:03 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:07:35 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:07:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:07:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:07:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:07:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:07:37 读取 pathMap[/getData] 成功
+2021/10/14 下午5:07:37 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:07:55 读取 pathMap[/login] 成功
+2021/10/14 下午5:07:55 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:08:10 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:08:10 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:08:10 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:08:10 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:08:10 读取 pathMap[/getData] 成功
+2021/10/14 下午5:08:10 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:08:15 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:08:15 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:08:15 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:08:15 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:08:15 读取 pathMap[/getData] 成功
+2021/10/14 下午5:08:15 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:10:25 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:10:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:10:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:10:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:10:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:10:28 读取 pathMap[/getData] 成功
+2021/10/14 下午5:10:28 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:10:36 读取 pathMap[/login] 成功
+2021/10/14 下午5:10:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:10:44 读取 pathMap[/login] 成功
+2021/10/14 下午5:10:44 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:10:45 读取 pathMap[/login] 成功
+2021/10/14 下午5:10:45 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:10:47 读取 pathMap[/login] 成功
+2021/10/14 下午5:10:47 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:12:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:12:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:12:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:12:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:12:14 读取 pathMap[/getData] 成功
+2021/10/14 下午5:12:14 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:12:20 读取 pathMap[/login] 成功
+2021/10/14 下午5:12:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:12:21 读取 pathMap[/login] 成功
+2021/10/14 下午5:12:21 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:12:46 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:12:46 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:12:46 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:12:46 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:12:46 读取 pathMap[/getData] 成功
+2021/10/14 下午5:12:46 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:12:48 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:12:56 读取 pathMap[/login] 成功
+2021/10/14 下午5:12:56 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:12:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:12:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:12:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:12:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:12:59 读取 pathMap[/getData] 成功
+2021/10/14 下午5:12:59 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:13:03 读取 pathMap[/login] 成功
+2021/10/14 下午5:13:03 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:13:17 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:13:17 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:13:17 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:13:17 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:13:17 读取 pathMap[/getData] 成功
+2021/10/14 下午5:13:17 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:13:22 读取 pathMap[/login] 成功
+2021/10/14 下午5:13:22 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:13:34 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:13:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:13:36 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:13:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:13:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:13:37 读取 pathMap[/getData] 成功
+2021/10/14 下午5:13:37 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:13:48 读取 pathMap[/login] 成功
+2021/10/14 下午5:13:48 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:13:56 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:13:56 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:14:03 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:14:03 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:14:03 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:14:03 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:14:03 读取 pathMap[/getData] 成功
+2021/10/14 下午5:14:03 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:14:04 读取 pathMap[/login] 成功
+2021/10/14 下午5:14:04 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:14:07 读取 pathMap[/login] 成功
+2021/10/14 下午5:14:07 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:14:11 读取 pathMap[/login] 成功
+2021/10/14 下午5:14:11 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:14:25 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:14:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:14:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:14:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:14:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:14:31 读取 pathMap[/getData] 成功
+2021/10/14 下午5:14:31 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:14:39 读取 pathMap[/login] 成功
+2021/10/14 下午5:14:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:14:42 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:14:42 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:14:42 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:14:42 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:14:42 读取 pathMap[/getData] 成功
+2021/10/14 下午5:14:42 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:14:42 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:14:42 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:14:42 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:14:42 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:14:42 读取 pathMap[/getData] 成功
+2021/10/14 下午5:14:42 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:14:48 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:14:51 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:14:51 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:14:51 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:14:51 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:14:51 读取 pathMap[/getData] 成功
+2021/10/14 下午5:14:51 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:14:56 读取 pathMap[/login] 成功
+2021/10/14 下午5:14:56 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:14:57 读取 pathMap[/login] 成功
+2021/10/14 下午5:14:57 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:15:30 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:15:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:15:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:15:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:15:31 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:15:31 读取 pathMap[/getData] 成功
+2021/10/14 下午5:15:31 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:15:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:15:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:15:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:15:33 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:15:33 读取 pathMap[/getData] 成功
+2021/10/14 下午5:15:33 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:15:34 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:15:34 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:15:34 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:15:34 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:15:34 读取 pathMap[/getData] 成功
+2021/10/14 下午5:15:34 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:15:39 读取 pathMap[/login] 成功
+2021/10/14 下午5:15:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:15:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:15:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:15:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:15:54 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:15:54 读取 pathMap[/getData] 成功
+2021/10/14 下午5:15:54 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:15:59 读取 pathMap[/login] 成功
+2021/10/14 下午5:15:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:16:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:16:13 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:16:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:16:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:16:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:16:14 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:16:14 读取 pathMap[/getData] 成功
+2021/10/14 下午5:16:14 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:16:19 读取 pathMap[/login] 成功
+2021/10/14 下午5:16:19 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:17:18 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:17:18 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:17:18 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:17:18 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:17:18 读取 pathMap[/getData] 成功
+2021/10/14 下午5:17:18 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:17:23 读取 pathMap[/login] 成功
+2021/10/14 下午5:17:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:17:59 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:18:01 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:18:01 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:18:01 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:18:01 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:18:02 读取 pathMap[/getData] 成功
+2021/10/14 下午5:18:02 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:18:07 读取 pathMap[/login] 成功
+2021/10/14 下午5:18:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:18:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:18:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:18:39 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:18:39 读取 pathMap[/getData] 成功
+2021/10/14 下午5:18:39 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:18:44 读取 pathMap[/login] 成功
+2021/10/14 下午5:19:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:19:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:19:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:19:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:19:06 读取 pathMap[/getData] 成功
+2021/10/14 下午5:19:06 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:19:07 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:19:07 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:19:07 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:19:07 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:19:07 读取 pathMap[/getData] 成功
+2021/10/14 下午5:19:07 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:19:15 读取 pathMap[/login] 成功
+2021/10/14 下午5:20:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:20:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:20:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:20:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:20:23 读取 pathMap[/getData] 成功
+2021/10/14 下午5:20:23 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:20:29 读取 pathMap[/login] 成功
+2021/10/14 下午5:23:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:23:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:23:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:23:06 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:23:06 读取 pathMap[/getData] 成功
+2021/10/14 下午5:23:06 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:23:10 读取 pathMap[/login] 成功
+2021/10/14 下午5:23:10 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:23:24 读取 pathMap[/login] 成功
+2021/10/14 下午5:23:24 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:23:27 读取 pathMap[/login] 成功
+2021/10/14 下午5:23:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:28:22 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:28:22 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:28:22 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:28:22 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:28:22 读取 pathMap[/getData] 成功
+2021/10/14 下午5:28:22 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:28:25 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:28:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:28:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:28:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:28:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:28:26 读取 pathMap[/getData] 成功
+2021/10/14 下午5:28:26 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:28:27 读取 pathMap[/login] 成功
+2021/10/14 下午5:28:29 读取 pathMap[/login] 成功
+2021/10/14 下午5:28:30 读取 pathMap[/login] 成功
+2021/10/14 下午5:29:11 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:29:11 读取 pathMap[/login] 成功
+2021/10/14 下午5:29:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:29:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:29:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:29:12 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:29:12 读取 pathMap[/getData] 成功
+2021/10/14 下午5:29:12 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:29:13 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:29:13 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:29:13 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:29:13 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:29:13 读取 pathMap[/getData] 成功
+2021/10/14 下午5:29:13 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:29:15 读取 pathMap[/login] 成功
+2021/10/14 下午5:30:04 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:30:04 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:30:04 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:30:04 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:30:04 读取 pathMap[/getData] 成功
+2021/10/14 下午5:30:04 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:30:06 读取 pathMap[/login] 成功
+2021/10/14 下午5:31:10 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:31:10 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:31:10 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:31:10 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:31:10 读取 pathMap[/getData] 成功
+2021/10/14 下午5:31:10 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:31:12 读取 pathMap[/login] 成功
+2021/10/14 下午5:31:55 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:31:57 读取 pathMap[/login] 成功
+2021/10/14 下午5:31:57 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:31:57 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:32:02 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:33:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:33:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:33:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:33:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:33:59 读取 pathMap[/getData] 成功
+2021/10/14 下午5:33:59 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:34:02 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:34:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:34:03 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:34:03 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:34:03 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:34:03 读取 pathMap[/getData] 成功
+2021/10/14 下午5:34:03 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:34:04 读取 pathMap[/login] 成功
+2021/10/14 下午5:34:12 读取 pathMap[/login] 成功
+2021/10/14 下午5:34:12 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:34:13 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:34:13 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:34:13 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:34:13 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:34:13 读取 pathMap[/getData] 成功
+2021/10/14 下午5:34:13 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:34:14 读取 pathMap[/login] 成功
+2021/10/14 下午5:34:32 读取 pathMap[/login] 成功
+2021/10/14 下午5:36:01 读取 pathMap[/login] 成功
+2021/10/14 下午5:36:01 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:36:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:36:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:36:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:36:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:36:02 读取 pathMap[/getData] 成功
+2021/10/14 下午5:36:03 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:36:04 读取 pathMap[/login] 成功
+2021/10/14 下午5:36:08 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:36:08 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:36:08 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:36:08 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:36:08 读取 pathMap[/getData] 成功
+2021/10/14 下午5:36:08 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:36:14 读取 pathMap[/login] 成功
+2021/10/14 下午5:36:22 读取 pathMap[/login] 成功
+2021/10/14 下午5:36:42 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:36:43 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:36:43 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:36:43 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:36:43 读取 pathMap[/getData] 成功
+2021/10/14 下午5:36:43 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:36:44 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:36:45 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:36:45 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:36:45 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:36:45 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:36:45 读取 pathMap[/getData] 成功
+2021/10/14 下午5:36:45 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:36:50 读取 pathMap[/login] 成功
+2021/10/14 下午5:36:50 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:36:51 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:36:52 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:36:59 读取 pathMap[/login] 成功
+2021/10/14 下午5:36:59 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\register.html成功
+2021/10/14 下午5:37:00 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:37:02 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:37:05 读取 pathMap[/login] 成功
+2021/10/14 下午5:37:05 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:37:05 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:38:20 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:38:20 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:38:24 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:38:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:38:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:38:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:38:25 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:38:25 读取 pathMap[/getData] 成功
+2021/10/14 下午5:38:25 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:38:27 读取 pathMap[/login] 成功
+2021/10/14 下午5:38:27 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:38:27 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:38:40 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:38:40 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:38:40 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:38:40 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:38:40 读取 pathMap[/getData] 成功
+2021/10/14 下午5:38:40 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:38:46 读取 pathMap[/login] 成功
+2021/10/14 下午5:38:46 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:38:46 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:39:17 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:40:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/14 下午5:40:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/14 下午5:40:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/14 下午5:40:00 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/14 下午5:40:00 读取 pathMap[/getData] 成功
+2021/10/14 下午5:40:00 在pathMap中未找到/favicon.ico 失败
+2021/10/14 下午5:40:02 读取 pathMap[/login] 成功
+2021/10/14 下午5:40:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
+2021/10/14 下午5:40:02 在pathMap中未找到/favicon.ico 失败
