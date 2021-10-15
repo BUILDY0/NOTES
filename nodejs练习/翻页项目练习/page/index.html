@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/locale/bootstrap-table-zh-CN.min.js"></script>
+</head>
+
+<body>
+    <table id="table" />
+    <script>
+        window.onload = function () {
+            $('#table').bootstrapTable({
+                url: "/getData",
+                pageNumber: 1,
+                pageSize: 5,
+                pageList: [5, 10, 20],
+                pagination: true,
+                sidePagination: 'server',
+                columns: [{
+                    field: 'id',
+                    title: '学生ID'
+                }, {
+                    field: 'num',
+                    title: '学生学号'
+                }, {
+                    field: 'class',
+                    title: '学生班级'
+                }, {
+                    field: 'name',
+                    title: '学生姓名'
+                }, {
+                    field: 'sex',
+                    title: '学生性别'
+                }, {
+                    field: 'age',
+                    title: '学生年龄'
+                }, {
+                    field: 'ctime',
+                    title: '创建时间'
+                }],
+            })
+        }
+    </script>
+</body>
+
+</html>
