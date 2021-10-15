@@ -26,7 +26,7 @@ http.createServer((req, res) => {
         if (pathName === '/getData') {
             let offset = +params.offset;
             let limit = +params.limit;
-            console.log(offset, limit);
+            // console.log(offset, limit);
             studentService.queryStudentAll(function (totalNum) {
                 studentService.queryStudentByLimit(offset, limit, function (result) {
                     res.writeHead(200, {
