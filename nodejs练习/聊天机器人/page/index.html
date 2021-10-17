@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatRobot</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">聊天机器人</div>
+        <div class="main">
+            <template class="client">
+                <div class="msg">你好</div>
+                <div class="avatar"><img src="./img/client.jpg"></div>
+            </template>
+            <template class="server">
+                <div class="avatar"><img src="./img/server.jpg"></div>
+                <div class="msg">你好啊</div>
+            </template>
+        </div>
+        <div class="toolbar">
+            <div class="input-container">
+                <input type="text">
+                <button class="submit" onclick="submit()">发送</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const oTemps = document.getElementsByTagName('template')
+        const oTempClient = oTemps[0];
+        const oTempServer = oTemps[1];
+        const oInput = document.getElementsByTagName('input')[0];
+        const oMain = document.getElementsByClassName('main')[0]
+
+        function addNode(cNode, text = oInput.value) {
+            const newNode = document.createElement('div');
+            newNode.innerHTML = cNode.innerHTML;
+            newNode.className = cNode.className;
+            const msg = newNode.getElementsByClassName('msg')[0];
+            msg.textContent = text;
+            oMain.appendChild(newNode);
+        }
+
+        function submit() {
+            if (!oInput.value) {
+                return;
+            }
+            // 页面上添加client文本
+            addNode(oTempClient);
+
+            // 发ajax请求 fetch api
+            // let text = oInput.value
+            // fetch('/chat', {
+            //     method: 'POST',
+            //     headers: {
+            //         "Content-Type": "application/json ; charset=utf8"
+            //     },
+            //     body: text,
+            // }).then(res => res.json().then(res => {
+            //     if (res) {
+            //         addNode(oTempServer, res);
+            //         oInput.value = '';
+            //     } else {
+            //         addNode(oTempServer, '未定义语句');
+            //         oInput.value = '';
+            //     }
+            //     oMain.scrollTo(oMain.scrollHeight - oMain.clientHeight);
+            // }))
+
+            // 发ajax请求 旧api get请求
+            let text = oInput.value
+            const xhr = new XMLHttpRequest();
+            let params = "?text=" + text;
+            oInput.value = '';
+            let url = location.protocol + '//' + location.hostname + '/chat' + params;
+            xhr.open("GET", url);
+            xhr.send(null);
+            xhr.onreadystatechange = function () {
+                if (xhr.status === 200 && xhr.readyState === 4) {
+                    const ret = JSON.parse(xhr.responseText);
+                    if (ret) {
+                        addNode(oTempServer, ret);
+                    } else {
+                        addNode(oTempServer, '未定义语句');
+                    }
+                }
+                oMain.scrollTo(0, oMain.scrollHeight);
+            }
+
+        }
+    </script>
+
+    <script>
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Enter') {
+                submit()
+            } else {
+                return false;
+            }
+        }, false)
+    </script>
+</body>
+
+</html>

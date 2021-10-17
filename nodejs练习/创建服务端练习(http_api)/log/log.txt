@@ -1838,3 +1838,8 @@ Mon Oct 11 2021 18:10:24 GMT+0800 (中国标准时间)读取 pathMap[/getData] �
 2021/10/14 下午5:40:02 读取 pathMap[/login] 成功
 2021/10/14 下午5:40:02 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.html成功
 2021/10/14 下午5:40:02 在pathMap中未找到/favicon.ico 失败
+2021/10/17 下午10:17:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.html成功
+2021/10/17 下午10:17:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\index.css成功
+2021/10/17 下午10:17:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\1.png成功
+2021/10/17 下午10:17:23 读取e:\works\NOTES\nodejs练习\创建服务端练习(http_api)\web\page\login.js成功
+2021/10/17 下午10:17:24 读取 pathMap[/getData] 成功

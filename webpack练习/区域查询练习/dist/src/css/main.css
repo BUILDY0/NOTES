@@ -1,0 +1,22 @@
+/* @import url('reset.css'); */
+
+.wrapper {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.info {
+    padding: 2px;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,131 @@
+@import url('./reset.css');
+
+template {
+    display: none !important;
+}
+
+.wrapper {
+    width: 350px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+/* 标题 */
+.wrapper .header {
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* 聊天框 */
+.wrapper .main {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.wrapper .main::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper .main .client,
+.wrapper .main .server {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+.wrapper .main .client {
+    right: 5px;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.wrapper .main .client .avatar {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+.wrapper .main .client .msg {
+    margin-right: 5px;
+    height: 30px;
+    line-height: 30px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.wrapper .main .server {
+    left: 5px;
+    height: 50px;
+
+}
+
+.wrapper .main .server {
+    margin-right: 10px;
+    height: 50px;
+}
+
+.wrapper .main .server .avatar {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+.wrapper .main .server .msg {
+    border-radius: 5px;
+    margin-left: 5px;
+    height: 30px;
+    line-height: 30px;
+    background-color: pink;
+    vertical-align: middle;
+    padding: 0px 5px;
+
+}
+
+/* 输入框 */
+
+.wrapper .toolbar {
+    height: 40px;
+    background-color: #eee;
+    position: relative;
+    box-shadow: 0 -0px 6px rgba(0, 0, 0, .3);
+}
+
+.wrapper .toolbar .input-container {
+    height: 100%;
+    line-height: 40px;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .toolbar .input-container input {
+    border: 1px solid rgba(0, 0, 0, .3);
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.wrapper .toolbar .input-container .submit {
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.wrapper .toolbar .input-container .submit:hover {
+    background-color: yellowgreen;
+    transition: background 0.2s ease;
+}
