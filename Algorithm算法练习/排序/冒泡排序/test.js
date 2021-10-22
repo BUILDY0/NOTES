@@ -7,7 +7,6 @@ function sort(arr) {
                 swap(arr, i, i + 1);
             }
         }
-
     }
     return arr;
 }
