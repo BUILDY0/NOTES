@@ -10,6 +10,3 @@ var Hello = /** @class */ (function () {
 var b = false;
 var a = 123;
 var c = 'abc';
-
-
-function abc() {}
