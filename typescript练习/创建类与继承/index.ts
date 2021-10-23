@@ -12,3 +12,17 @@ class Person {
 
 var p = new Person('jaccey', 12);
 p.print();
+
+class Student extends Person {
+    sex: string;
+    constructor(sex: string) {
+        super('ave', 15);
+        this.sex = sex;
+    }
+    print() {
+        super.print();
+    }
+}
+
+var s = new Student('f');
+s.print();
